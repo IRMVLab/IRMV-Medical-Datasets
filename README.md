@@ -1,10 +1,9 @@
 # IRMV Medical Dataset README
 
-**版本**: 0.1  
-**日期**: 2025年5月16日  
-**作者**:  $\color{#0089FF}{@谢承泰}$  **IRMV LAB**
+**版本**: 1.0  
+**日期**: 2025年7月15日  
+**作者**:  $\color{#0089FF}{谢承泰}$  **IRMV LAB**
 
----
 
 ## 项目描述
 
@@ -12,11 +11,9 @@
 
 数据集支持包括**视觉SLAM、结构光三维重建、相机标定验证、几何学习、手术导航算法评估**在内的多种研究任务，适用于推进**医疗机器人**在复杂手术环境中的自主感知与定位能力。
 
----
 
 ## 数据集列表
 
-:::
 ### EndoNeRF数据集
 
 **名称**: `endonerf_sample_datasets`
@@ -27,8 +24,7 @@
 **原格式**: `**LLFF**`
 
 [请至钉钉文档查看附件《EndoNeRF\_Dataset》](https://alidocs.dingtalk.com/i/nodes/l6Pm2Db8D4rEryL0hgp2yyAp8xLq0Ee4?doc_type=wiki_doc&iframeQuery=anchorId%3DX02maqg6ltisp5gn1405q)
-:::
-:::
+
 ### SCARED2019数据集
 
 **名称**: `Stereo Correspondence and Reconstruction of Endoscopic Data`
@@ -39,8 +35,7 @@
 **原格式**: **TIFF**格式深度图、**PNG**格式照片、相机参数信息与视频序列 （需要预处理）
 
 [请至钉钉文档查看附件《SCARED2019\_Dataset》](https://alidocs.dingtalk.com/i/nodes/l6Pm2Db8D4rEryL0hgp2yyAp8xLq0Ee4?doc_type=wiki_doc&iframeQuery=anchorId%3DX02mawao1mrjtyjem3jele)
-:::
-:::
+
 ### StereoMIS数据集
 
 **名称**: `StereoMIS Data`
@@ -51,25 +46,20 @@
 **原格式**: **PNG**格式**Masks**、相机参数信息与视频序列 （需要预处理）
 
 [请至钉钉文档查看附件《StereoMIS\_Dataset》](https://alidocs.dingtalk.com/i/nodes/l6Pm2Db8D4rEryL0hgp2yyAp8xLq0Ee4?doc_type=wiki_doc&iframeQuery=anchorId%3DX02mb3793i6ind0os36c5n)
-:::
----
 
 ## 许可协议
 
 详细参考各个数据集使用文档
 
----
 
 ## 联系方式
 
 *   **实验室团队**: IRMV, SIRIUS
     
-*   **技术支持**: hsiehtpe\_sjtu@sjtu.edu.cn  $\color{#0089FF}{@谢承泰}$ 
+*   **技术支持**: hsiehtpe\_sjtu@sjtu.edu.cn  $\color{#0089FF}{谢承泰}$ 
     
 *   **数据申请与下载**: 详细参考各个数据集使用文档
     
-
----
 
 ## 更新日志
 
@@ -80,13 +70,14 @@
 *    2025-05-20  更新scared2019
     
 *    2025-05-25  更新stereomis
+
+*    2025-07-15  更新GitHub页面
     
 
----
 
 ## 数据下载暨阿里云使用说明
-
----
+ 
+  ### coming soon
 
 ## 贡献指南
 
@@ -99,23 +90,22 @@
 
 [https://github.com/openmedlab/Awesome-Medical-Dataset: https://github.com/openmedlab/Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset)
 
----
 
 ## Todo List
 
-*   github页面维护
+  ### GitHub 页面维护
     
 
-*   [ ] 创建页面
+*   [x] 创建页面
     
 
-*   阿里云使用说明
+  ### 阿里云使用说明
     
 
 *   [ ] 编写aliyunpan下载介绍
     
 
-*   数据集收集
+  ### 数据集收集
     
 
 *   [x] endonerf
