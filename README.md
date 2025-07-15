@@ -2,7 +2,7 @@
 
 **版本**: 1.0  
 **日期**: 2025年7月15日  
-**作者**:  $\color{#0089FF}{谢承泰}$  **IRMV LAB**
+**作者**:  谢承泰  @ **IRMV LAB**
 
 
 ## 项目描述
@@ -21,7 +21,7 @@
 **来源**: [https://med-air.github.io/EndoNeRF/](https://med-air.github.io/EndoNeRF/)  
 **类型**: 内窥镜图像  
 **简介**: 包含两个文件夹，`cutting_tissues_twice` 与 `pulling_soft_tissues`   
-**原格式**: `**LLFF**`
+**原格式**: **LLFF**
 
 [请至钉钉文档查看附件《EndoNeRF\_Dataset》](https://alidocs.dingtalk.com/i/nodes/l6Pm2Db8D4rEryL0hgp2yyAp8xLq0Ee4?doc_type=wiki_doc&iframeQuery=anchorId%3DX02maqg6ltisp5gn1405q)
 
