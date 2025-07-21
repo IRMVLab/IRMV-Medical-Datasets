@@ -1,8 +1,8 @@
-# IRMV Medical Dataset README
+# IRMV Medical Datasets README
 
 **版本**: 1.0  
 **日期**: 2025年7月15日  
-**作者**:  谢承泰  @ **IRMV LAB**
+**作者**:  $\color{#0089FF}{谢承泰}$  @ **IRMV LAB**
 
 
 ## 项目描述
