@@ -17,16 +17,16 @@ StereoMIS 是一个用于内窥镜手术中同时定位与建图（SLAM）的数
 ### 【Official】
 - 下载数据集：
   ```bash
-  wget 'https://zenodo.org/records/8154924/files/StereoMIS_0_0_1.zip?download=1'
+  wget -c 'https://zenodo.org/records/8154924/files/StereoMIS_0_0_1.zip?download=1'
   ```
 - 下载 License：
   ```bash
   wget -c 'https://zenodo.org/records/8154924/files/License?download=1'
   ```
 
-### 【DingPan】
+### 【DingPan*】
 
-Contact e-mail or group chat for more infomation.
+邮件或群组联系文档编辑员获得更多信息。
 
 
 \* **_irmv & sirius member only_**
