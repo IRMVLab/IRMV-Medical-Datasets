@@ -1,8 +1,8 @@
 # IRMV Medical Datasets README
 
-**版本**: 1.0  
-**日期**: 2025年7月15日  
-**作者**:  $\color{#0089FF}{谢承泰}$  @ **IRMV LAB**
+**版本**: 1.0.1 
+**日期**: 2025年7年22日  
+**作者**:  Hsieh Cheng-Tai  [@**IRMV LAB**](https://irmv.sjtu.edu.cn/)
 
 
 ## 项目描述
@@ -54,9 +54,9 @@
 
 ## 联系方式
 
-*   **实验室团队**: IRMV, SIRIUS
+*   **实验室团队**: [**IRMV**](https://irmv.sjtu.edu.cn/), [**SIRIUS**](https://banyutong.github.io/sirius_lab_website/)
     
-*   **技术支持**: hsiehtpe\_sjtu@sjtu.edu.cn  $\color{#0089FF}{谢承泰}$ 
+*   **电子邮件**: hsiehtpe\_sjtu@sjtu.edu.cn  Hsieh Cheng-Tai 
     
 *   **数据申请与下载**: 详细参考各个数据集使用文档
     
@@ -71,7 +71,9 @@
     
 *    2025-05-25  更新stereomis
 
-*    2025-07-15  更新GitHub页面
+*    2025-07-15  更新GitHub页面 v1.0
+
+*    2025-07-22  小型更新 v1.0.1
     
 
 

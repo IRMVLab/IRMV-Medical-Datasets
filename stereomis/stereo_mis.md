@@ -6,13 +6,11 @@ StereoMIS 是一个用于内窥镜手术中同时定位与建图（SLAM）的数
 该数据集使用达芬奇 Xi 手术机器人捕获立体视频流及相机前向运动学数据。  
 数据来自三个体内猪受试者，总计 11 个手术序列，涵盖呼吸、手术工具运动及组织变形场景。
 
----
 
 ## 🌐 官方网页
 [https://zenodo.org/records/7727692](https://zenodo.org/records/7727692)  
 > ⚠ 需要 VPN 打开网页查看
 
----
 
 ## 💾 数据集下载
 
@@ -27,15 +25,15 @@ StereoMIS 是一个用于内窥镜手术中同时定位与建图（SLAM）的数
   ```
 
 ### 【DingPan】
-- License (钉盘链接)：  
-  [https://alidocs.dingtalk.com/i/nodes/NDoBb60VLQa1ajwdUzkjml1dJlemrZQ3?utm_scene=team_space](https://alidocs.dingtalk.com/i/nodes/NDoBb60VLQa1ajwdUzkjml1dJlemrZQ3?utm_scene=team_space)
 
----
+Contact e-mail or group chat for more infomation.
+
+
+\* **_irmv & sirius member only_**
 
 ## 📂 Dataset Example
 第一个视频序列包含手术器械遮挡、视频、位姿真值及相机参数。
 
----
 
 ## 🚀 数据集下载说明
 - 可以使用 `wget -c` 断点续传，或 `wget -b` 后台下载。
@@ -45,7 +43,6 @@ StereoMIS 是一个用于内窥镜手术中同时定位与建图（SLAM）的数
 - 补充缺失的 P3 数据
 - 补充序列起始与结束帧信息
 
----
 
 ## 📝 论文引用信息
 
@@ -69,7 +66,6 @@ StereoMIS 是一个用于内窥镜手术中同时定位与建图（SLAM）的数
 }
 ```
 
----
 
 ## 🗂 数据集结构
 
@@ -90,7 +86,6 @@ StereoMIS/
 ├── P2_8/
 ```
 
----
 
 ## 📈 序列信息表
 
@@ -111,7 +106,6 @@ StereoMIS/
 > 📝 **说明：**  
 > P3 在数据集原始版本（0.0.0）中缺失。
 
----
 
 ## 📝 数据说明
 
@@ -120,15 +114,13 @@ StereoMIS/
 - 同步的相机前向运动学数据提供随时间变化的位姿信息，用于三维重建和运动分析。
 - 起止帧号 CSV 文件标记每段手术有效帧范围。
 
----
 
 ## 📊 维度与属性
 
 | Modality    | Task Type | Sensor Type                  | Data Volume | File Format      |
-|-------------|-----------|-----------------------------|-------------|------------------|
+|-------------|-----------|------------------------------|-------------|------------------|
 | 2D Endoscope| SLAM      | Structured light + Binocular | 11.2GB      | .png, .mp4       |
 
----
 
 ## ⚙ 预处理代码
 
@@ -138,18 +130,16 @@ StereoMIS/
 > 请在 `configuration/train.yaml` 中修改数据集路径。  
 > P1 序列处理后约生成 17GB `video_frames` 文件夹。
 
----
 
 ## ✍ 编辑记录
 
-- **作者**: @谢承泰
+- **作者**: 谢承泰 @IRMV
 - **最后修改日期**: 2025-05-26
 - **编辑历史**:
     - 2025-05-22 创建文档
     - 2025-05-24 补充数据集信息
     - 2025-05-26 更新预处理代码与下载链接
 
----
 
 ## ⚖ 使用条款
 
