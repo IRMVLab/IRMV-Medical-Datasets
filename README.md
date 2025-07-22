@@ -45,7 +45,7 @@
 **简介**: StereoMIS是内窥镜手术中同时定位和建图 (SLAM) 的数据集。使用达芬奇Xi手术机器人捕获立体视频流和相机前向运动学来记录数据集。它由三个体内猪受试者组成，具有11个手术序列，包括呼吸，工具运动和组织变形。与SCARED是同一个作者。  
 **原格式**: **PNG**格式**Masks**、相机参数信息与视频序列 （需要预处理）
 
-[StereoMIS 数据集阅读文档](stereomis/stereo_mis.md)
+[StereoMIS 数据集阅读文档](./datasets&codes/stereomis/readme.md)
 
 ## 许可协议
 
