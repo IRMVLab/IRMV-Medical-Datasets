@@ -2,7 +2,7 @@
 
 **版本**: 1.1.0  
 **日期**: 2025年9月22日  
-**作者**: Hsieh Cheng-Tai [@IRMV LAB](https://irmv.sjtu.edu.cn/)
+**编者**: Hsieh Cheng-Tai [@IRMV LAB](https://irmv.sjtu.edu.cn/)
 
 ## 📖 项目描述
 
@@ -13,9 +13,11 @@
 - 结构光/神经渲染三维重建  
 - 相机标定与验证  
 - 几何学习  
-- 手术导航算法评估  
+- 手术导航算法评估
+- 组织点追踪
+- 手术器械分割  
 
-本项目旨在促进 **医疗机器人** 在复杂手术场景中的 **自主感知、建图与定位能力** 研究。
+本项目旨在促进 **医疗机器人** 在复杂手术场景中的 **自主感知、建图与定位能力** 等研究。
 
 ## 📂 数据集列表
 
@@ -30,7 +32,7 @@
 **来源**: [https://med-air.github.io/EndoNeRF/](https://med-air.github.io/EndoNeRF/)  
 **类型**: 内窥镜图像  
 **简介**: 包含两个子集：`cutting_tissues_twice` 与 `pulling_soft_tissues`。数据以 **LLFF** 格式存储，适用于 NeRF 等多视角三维重建与新视角合成任务。  
-**原格式**: **LLFF 格式**（含相机位姿与图像序列）  
+**原格式**:  [**LLFF**](https://github.com/Fyusion/LLFF)格式（含相机位姿与图像序列），常用于使用[神经辐射场NeRF](https://github.com/bmild/nerf)等方法的真实场景重建和新视角合成任务。  
 
 [EndoNeRF 数据集阅读文档](./datasets_and_codes/endonerf)
 
@@ -67,6 +69,24 @@
 
 [C3VD 数据集阅读文档](./datasets_and_codes/c3vd)
 
+---
+
+### SUPER Framework 数据集
+**名称**: `SUPER Framework`  
+**来源**: [https://sites.google.com/ucsd.edu/super-framework](https://sites.google.com/ucsd.edu/super-framework)  
+**类型**: 内窥镜视频、组织点追踪与手术器械分割标注  
+**简介**: SUPER 提供一个小规模的手术场景数据集，包含 **58 帧组织图像**，每帧约 **20 个组织特征点（landmarks）**，以及相应的 **手术器械分割标注**。该数据集可用于 **组织点追踪（Tissue Landmark Tracking）** 和 **手术器械分割（Instrument Segmentation）** 任务，支持视觉 SLAM、手术场景理解和器械检测研究。  
+**原格式**: **图像帧（PNG/JPEG）、组织点标注（JSON/CSV）、器械分割掩码（PNG）**  
+
+---
+
+### STIR 数据集
+**名称**: `STIR (Surgical Tattoos InfraRed)`  
+**来源**: [https://ieee-dataport.org/open-access/stir-surgical-tattoos-infrared](https://ieee-dataport.org/open-access/stir-surgical-tattoos-infrared)  
+**类型**: 红外荧光组织标注与视频数据  
+**简介**: STIR 使用吲哚菁绿 (ICG) 荧光染料在体内或体外组织上进行标记，通过红外成像获取组织的“真值”。不同于单点标注，STIR 提供的是 **小区域标记**，可用于 **组织区域检测、追踪、手术导航和配准** 等任务，是目前少见的 **红外荧光标记真值数据集**。  
+**原格式**: **红外视频序列（AVI/MP4）、区域标注掩码（PNG/TIFF）、元数据说明文件**  
+
 
 ## 📜 许可协议
 各数据集均遵循其官方发布的使用协议，请参考对应的说明文档。  
@@ -83,7 +103,8 @@
 - 2025-05-25  更新 StereoMIS  
 - 2025-07-15  发布 GitHub 页面 v1.0  
 - 2025-07-22  小型更新 v1.0.1
-- 2025-09-22  ***v1.1.0*** 优化github页面；增加c3vd数据集  
+- 2025-09-22  
+  - ***v1.1.0*** 优化github页面；增加c3vd数据集页面说明；增加视觉点追踪数据集描述；英文版本的更新。  
 
 
 ## 🤝 贡献指南
@@ -94,12 +115,20 @@
   如有疑问或改进建议，请通过邮件联系。  
 
 - **推荐参考项目**:  
-  [Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset)  
+  [Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset)
+
+- **贡献者清单**:  
+  感谢以下贡献者对本项目的支持与付出（按贡献时间排序）：  
+  - Hsieh Cheng-Tai hsiehtpe_sjtu@sjtu.edu.cn
+  - Zhan Bohan  zhanbh2000@sjtu.edu.cn
+
+欢迎更多贡献者加入！  
 
 ## ✅ Todo List
 
 ### GitHub 页面维护
-- [x] 创建页面  
+- [x] 创建页面
+- [ ] 优化目录  
 
 ### 数据集收集
 - [x] EndoNeRF  
