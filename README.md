@@ -85,7 +85,26 @@
 **来源**: [https://ieee-dataport.org/open-access/stir-surgical-tattoos-infrared](https://ieee-dataport.org/open-access/stir-surgical-tattoos-infrared)  
 **类型**: 红外荧光组织标注与视频数据  
 **简介**: STIR 使用吲哚菁绿 (ICG) 荧光染料在体内或体外组织上进行标记，通过红外成像获取组织的“真值”。不同于单点标注，STIR 提供的是 **小区域标记**，可用于 **组织区域检测、追踪、手术导航和配准** 等任务，是目前少见的 **红外荧光标记真值数据集**。  
-**原格式**: **红外视频序列（AVI/MP4）、区域标注掩码（PNG/TIFF）、元数据说明文件**  
+**原格式**: **红外视频序列（AVI/MP4）、区域标注掩码（PNG/TIFF）、元数据说明文件** 
+
+---
+
+### SurgT 数据集
+**名称**: `SurgT`  
+**来源**: [https://surgt.grand-challenge.org/](https://surgt.grand-challenge.org/)  
+**类型**: 双目内窥镜视频、组织点追踪标注  
+**简介**: SurgT 是一个专为 **组织追踪（Tissue Tracking）** 设计的数据集，基于 **双目内窥镜视频**，共包含 **25000+ 帧**。每帧提供 **一个组织标注点**，可用于组织运动估计、双目图像处理与术中导航研究。  
+**原格式**: **双目内窥镜视频序列（AVI/MP4）、单点标注文件（CSV/JSON）**  
+
+---
+
+### SurgicalMotion 数据集
+**名称**: `SurgicalMotion`  
+**来源**: [https://github.com/zhanbh1019/SurgicalMotion](https://github.com/zhanbh1019/SurgicalMotion)  
+**类型**: 内窥镜视频、组织点追踪标注  
+**简介**: SurgicalMotion 由 20 个视频组成，每个视频约 **60 帧**，每帧包含 **25 个组织特征点（landmarks）**。相比 SurgT 的单点标注，SurgicalMotion 提供更丰富的 **多点组织追踪标注**，适用于组织运动建模、场景几何理解与医疗机器人视觉感知研究。  
+**原格式**: **视频序列（MP4）、多点标注文件（CSV/JSON）**  
+
 
 
 ## 📜 许可协议
@@ -133,7 +152,7 @@
 ### 数据集收集
 - [x] EndoNeRF  
 - [x] SCARED2019  
-  
+- [x] StereoMIS
 - [x] C3VD  
 
 ### 预处理代码
