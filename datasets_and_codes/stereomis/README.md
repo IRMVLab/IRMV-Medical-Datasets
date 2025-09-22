@@ -127,7 +127,7 @@ StereoMIS/
 下载后需预处理视频：  
 [https://github.com/aimi-lab/robust-pose-estimator](https://github.com/aimi-lab/robust-pose-estimator)
 
-> 请在 `configuration/train.yaml` 中修改数据集路径。  
+> 请在 `configuration/train.yaml` 中修改增添目标数据集路径。  
 > P1 序列处理后约生成 17GB `video_frames` 文件夹。
 
 
