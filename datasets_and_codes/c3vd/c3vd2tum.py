@@ -15,7 +15,7 @@
 - 确保输入文件夹中包含所有必要的文件(如color.png, depth.tiff等)
 - 确保安装了所有必要的Python库, 如opencv, numpy等
 - 输出文件夹将自动创建并包含处理后的数据
-- 畸变恢复系数和内参矩阵来自于@IRMV feng qiyu, 可以根据实际情况进行修改
+- 畸变恢复系数和内参矩阵来自于@IRMV Feng Qiyu, 可以根据实际情况进行修改
 
 范例命令:
     如果下载并解压后的文件夹路径为./desc_t4_a，则可以使用以下命令运行脚本:
@@ -23,7 +23,7 @@
     如果不删除原始文件夹，则不需要添加--del_raw参数
 """
 
-""" english version, Please read before use
+""" English Version, Please read before use
 Purpose: This script is mainly used for converting the C3VD dataset format to the TUM dataset format.
 Author: Hsieh Cheng-Tai @IRMV
 email: hsiehtpe_sjtu@sjtu.edu.cn
@@ -40,7 +40,7 @@ Notes:
 - Make sure the input folder contains all necessary files (such as color.png, depth.tiff, etc.)
 - Ensure all necessary Python libraries are installed, such as opencv, numpy, etc.
 - The output folder will be created automatically and will contain the processed data.
-- The distortion correction coefficients and intrinsic matrix are provided by @IRMV feng qiyu, and can be modified according to actual conditions.
+- The distortion correction coefficients and intrinsic matrix are provided by @IRMV Feng Qiyu, and can be modified according to actual conditions.
 
 Example Command:
     If the downloaded and extracted folder path is ./desc_t4_a, you can run the script using the following command:

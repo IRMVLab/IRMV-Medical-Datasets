@@ -1,4 +1,4 @@
-"""
+"""中文版本 使用前请阅读
 代码用途: 
 作者: Hsieh Cheng-Tai @IRMV
 邮箱: hsiehtpe_sjtu@sjtu.edu.cn
@@ -11,7 +11,9 @@
 
 注意事项:
 - 
+"""
 
+"""english version Please read before use
 Purpose: This script is mainly used for [describe the main function of the code]
 Author: Hsieh Cheng-Tai @IRMV
 email: hsiehtpe_sjtu@sjtu.edu.cn
