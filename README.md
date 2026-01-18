@@ -17,28 +17,16 @@
 
 ## 📂 数据集列表
 
-### 数据集目录
-- [IRMV Medical Datasets Collection English Version](#irmv-medical-datasets-collection-english-version)
-  - [📖 项目描述](#-项目描述)
-  - [📂 数据集列表](#-数据集列表)
-    - [数据集目录](#数据集目录)
-    - [EndoNeRF 数据集](#endonerf-数据集)
-    - [SCARED2019 数据集](#scared2019-数据集)
-    - [StereoMIS 数据集](#stereomis-数据集)
-    - [C3VD 数据集](#c3vd-数据集)
-    - [SUPER Framework 数据集](#super-framework-数据集)
-    - [STIR 数据集](#stir-数据集)
-    - [SurgT 数据集](#surgt-数据集)
-    - [SurgicalMotion 数据集](#surgicalmotion-数据集)
-  - [📜 许可协议](#-许可协议)
-  - [📬 联系方式](#-联系方式)
-  - [📝 更新日志](#-更新日志)
-  - [🤝 贡献指南](#-贡献指南)
-  - [✅ Todo List](#-todo-list)
-    - [GitHub 页面维护](#github-页面维护)
-    - [数据集收集](#数据集收集)
-    - [预处理代码](#预处理代码)
-
+### 数据集一览
+<!-- no toc -->
+  - [C3VD](#c3vd-数据集)
+  - [EndoNeRF](#endonerf-数据集)
+  - [SCARED2019](#scared2019-数据集)
+  - [StereoMIS](#stereomis-数据集)
+  - [STIR](#stir-数据集)
+  - [SurgT](#surgt-数据集)
+  - [SurgicalMotion](#surgicalmotion-数据集)
+  - [SUPER Framework](#super-framework-数据集)
   
 ### EndoNeRF 数据集
 **名称**: `endonerf_sample_datasets`  
@@ -135,9 +123,10 @@
 - 2025-05-25  更新 StereoMIS  
 - 2025-07-15  发布 GitHub 页面 v1.0  
 - 2025-07-22  小型更新 v1.0.1
-- 2025-09-22  小型更新 v1.0.2
-- 2026-01-18  数据集拓展与任务分类更新 v1.2.0
+- 2025-09-22  
   - ***v1.1.0*** 优化github页面；增加c3vd数据集页面说明；增加视觉点追踪数据集描述；英文版本的更新。  
+- 2026-01-18  数据拓展与任务分类更新 v1.2.0
+
 
 
 ## 🤝 贡献指南
@@ -157,19 +146,8 @@
 
 欢迎更多贡献者加入！  
 
-## ✅ Todo List
+## 🎬 即将推出
 
-### GitHub 页面维护
-- [x] 创建页面
-- [ ] 优化目录  
+*coming soon*
 
-### 数据集收集
-- [x] EndoNeRF  
-- [x] SCARED2019  
-- [x] StereoMIS
-- [x] C3VD  
-
-### 预处理代码
-- [ ] C3VD
-- [ ] StereoMIS
 ---
