@@ -1,4 +1,4 @@
-# IRMV Medical Datasets Collection <sup>[中文版本](../README.md)</sup> <!-- omit from toc -->
+# IRMV Medical Datasets Collection <sup>[中文版本](../)</sup> <!-- omit from toc -->
 
 **Version**: 1.2.0  
 **Date**: January 18, 2026  
