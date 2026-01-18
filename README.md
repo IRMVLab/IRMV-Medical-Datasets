@@ -16,6 +16,7 @@
   - [SUPER Framework 数据集](#super-framework-数据集)
   - [STIR 数据集](#stir-数据集)
   - [SurgT 数据集](#surgt-数据集)
+  - [MIMIC-CXR-JPG 数据集](#mimic-cxr-jpg-数据集)
   - [SurgicalMotion 数据集](#surgicalmotion-数据集)
 - [📜 许可协议](#-许可协议)
 - [📬 联系方式](#-联系方式)
@@ -39,6 +40,7 @@
 <!-- no toc -->
   - [C3VD](#c3vd-数据集)
   - [EndoNeRF](#endonerf-数据集)
+  - [MIMIC-CXR-JPG](#mimic-cxr-jpg-数据集)
   - [SCARED2019](#scared2019-数据集)
   - [StereoMIS](#stereomis-数据集)
   - [STIR](#stir-数据集)
@@ -114,6 +116,13 @@
 **类型**: 双目内窥镜视频、组织点追踪标注  
 **简介**: SurgT 是一个专为 **组织追踪（Tissue Tracking）** 设计的数据集，基于 **双目内窥镜视频**，共包含 **25000+ 帧**。每帧提供 **一个组织标注点**，可用于组织运动估计、双目图像处理与术中导航研究。  
 **原格式**: **双目内窥镜视频序列（AVI/MP4）、单点标注文件（CSV/JSON）**  
+
+### MIMIC-CXR-JPG 数据集
+**名称**: `MIMIC-CXR-JPG v2.1.0`  
+**来源**: https://physionet.org/content/mimic-cxr-jpg/2.1.0/  
+**类型**: 胸部 X 光图像（CXR）、结构化医学标签  
+**简介**: MIMIC-CXR-JPG 是一个大规模的真实临床胸部 X 光数据集，包含 **37 万余张胸片图像**，来自 **数万名患者** 的临床检查记录。每张图像均关联由放射科报告自动提取的 **结构化病变标签**，适用于医学图像理解、疾病分类、异常检测以及医疗视觉大模型的训练与评估。  
+**原格式**: **JPEG 图像（由原始 DICOM 转换）、结构化标签文件（CSV）、影像与检查级元数据**
 
 ---
 

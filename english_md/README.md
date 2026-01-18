@@ -16,6 +16,7 @@
   - [STIR Dataset](#stir-dataset)
   - [SurgT Dataset](#surgt-dataset)
   - [SurgicalMotion Dataset](#surgicalmotion-dataset)
+  - [MIMIC-CXR-JPG Dataset](#mimic-cxr-jpg-dataset)
 - [📜 License](#-license)
 - [📬 Contact](#-contact)
 - [📝 Changelog](#-changelog)
@@ -38,13 +39,13 @@ By systematically organizing these datasets, we aim to provide a reusable, compa
 <!-- no toc -->
 - [C3VD](#c3vd-dataset)
 - [EndoNeRF](#endonerf-dataset)
+- [MIMIC-CXR-JPG](#mimic-cxr-jpg-dataset)
 - [SCARED2019](#scared2019-dataset)
 - [StereoMIS](#stereomis-dataset)
 - [STIR](#stir-dataset)
 - [SurgT](#surgt-dataset)
 - [SurgicalMotion](#surgicalmotion-dataset)
 - [SUPER Framework](#super-framework-dataset)
-
 ---
 
 ### EndoNeRF Dataset
@@ -140,6 +141,13 @@ Stereo video sequences (AVI/MP4) and single-point annotations (CSV/JSON).
 Consists of 20 video sequences, each with approximately **60 frames**, and **25 tissue landmarks per frame**. Compared to SurgT, SurgicalMotion provides richer multi-point annotations, supporting tissue motion modeling, geometric scene understanding, and medical robotic perception.  
 **Original Format**:  
 Video sequences (MP4) and multi-point annotation files (CSV/JSON).
+
+### MIMIC-CXR-JPG Dataset
+**Name**: `MIMIC-CXR-JPG v2.1.0`  
+**Source**: https://physionet.org/content/mimic-cxr-jpg/2.1.0/  
+**Modality**: Chest X-ray images (CXR), structured medical labels  
+**Description**: MIMIC-CXR-JPG is a large-scale real-world clinical chest X-ray dataset containing **over 370,000 radiographic images** collected from **tens of thousands of patients**. Each image is associated with **structured pathology labels** automatically extracted from corresponding radiology reports, making it suitable for medical image understanding, disease classification, abnormality detection, and training and evaluation of medical vision foundation models.  
+**Original Format**: **JPEG images (converted from original DICOM), structured label files (CSV), image- and study-level metadata**
 
 ---
 
