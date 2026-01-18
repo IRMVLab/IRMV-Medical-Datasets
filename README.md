@@ -1,31 +1,44 @@
 # IRMV Medical Datasets Collection [English Version](./english_md/README.md)
 
-**版本**: 1.1.0  
-**日期**: 2025年9月22日  
-**编者**: Hsieh Cheng-Tai [@IRMV LAB](https://irmv.sjtu.edu.cn/)
+**版本**: 1.2.0  
+**日期**: 2026年1月18日  
+**编者**: HSIEH Cheng-Tai [@IRMV LAB](https://irmv.sjtu.edu.cn/)
 
 ## 📖 项目描述
 
-本仓库收录并整理了适用于 **内窥镜手术场景中的三维视觉任务与机器人感知任务** 的公开数据集。  
-数据包含 **内窥镜图像、视频序列、深度图、三维模型、点云、相机标定信息** 等，支持以下研究方向：  
+本仓库收录并整理适用于 **内窥镜手术场景与医疗视觉建模** 的三维视觉与感知数据集资源。
 
-- 视觉 SLAM  
-- 结构光/神经渲染三维重建  
-- 相机标定与验证  
-- 几何学习  
-- 手术导航算法评估
-- 组织点追踪
-- 手术器械分割  
+数据集覆盖 **内窥镜图像、视频序列、深度图、三维模型、点云、相机标定信息** 等多模态数据，旨在为复杂医疗场景中的视觉理解与智能感知提供高质量基准数据与评估平台。
 
-本项目旨在促进 **医疗机器人** 在复杂手术场景中的 **自主感知、建图与定位能力** 等研究。
+本项目面向 **医疗机器人感知** 研究与**医疗视觉大模型** 的训练、评估与应用探索，例如大规模医学影像理解、结构化推理与跨模态学习。
+
+通过系统化整理数据资源，我们希望为医疗机器人、计算机视觉与医学人工智能领域的研究者提供可复用、可对比、可扩展的实验基础。
+
 
 ## 📂 数据集列表
 
 ### 数据集目录
-- [EndoNeRF 数据集](#endonerf-数据集)
-- [SCARED2019 数据集](#scared2019-数据集)
-- [StereoMIS 数据集](#stereomis-数据集)
-- [C3VD 数据集](#c3vd-数据集)
+- [IRMV Medical Datasets Collection English Version](#irmv-medical-datasets-collection-english-version)
+  - [📖 项目描述](#-项目描述)
+  - [📂 数据集列表](#-数据集列表)
+    - [数据集目录](#数据集目录)
+    - [EndoNeRF 数据集](#endonerf-数据集)
+    - [SCARED2019 数据集](#scared2019-数据集)
+    - [StereoMIS 数据集](#stereomis-数据集)
+    - [C3VD 数据集](#c3vd-数据集)
+    - [SUPER Framework 数据集](#super-framework-数据集)
+    - [STIR 数据集](#stir-数据集)
+    - [SurgT 数据集](#surgt-数据集)
+    - [SurgicalMotion 数据集](#surgicalmotion-数据集)
+  - [📜 许可协议](#-许可协议)
+  - [📬 联系方式](#-联系方式)
+  - [📝 更新日志](#-更新日志)
+  - [🤝 贡献指南](#-贡献指南)
+  - [✅ Todo List](#-todo-list)
+    - [GitHub 页面维护](#github-页面维护)
+    - [数据集收集](#数据集收集)
+    - [预处理代码](#预处理代码)
+
   
 ### EndoNeRF 数据集
 **名称**: `endonerf_sample_datasets`  
@@ -122,7 +135,8 @@
 - 2025-05-25  更新 StereoMIS  
 - 2025-07-15  发布 GitHub 页面 v1.0  
 - 2025-07-22  小型更新 v1.0.1
-- 2025-09-22  
+- 2025-09-22  小型更新 v1.0.2
+- 2026-01-18  数据集拓展与任务分类更新 v1.2.0
   - ***v1.1.0*** 优化github页面；增加c3vd数据集页面说明；增加视觉点追踪数据集描述；英文版本的更新。  
 
 
@@ -138,8 +152,8 @@
 
 - **贡献者清单**:  
   感谢以下贡献者对本项目的支持与付出（按贡献时间排序）：  
-  - Hsieh Cheng-Tai hsiehtpe_sjtu@sjtu.edu.cn
-  - Zhan Bohan  zhanbh2000@sjtu.edu.cn
+  - HSIEH Cheng-Tai hsiehtpe_sjtu@sjtu.edu.cn
+  - ZHAN Bohan  zhanbh2000@sjtu.edu.cn
 
 欢迎更多贡献者加入！  
 

@@ -1,2 +1,5 @@
 # directory to ignore
 .vscode/
+
+# files to ignore
+todo.md

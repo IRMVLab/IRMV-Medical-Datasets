@@ -83,7 +83,10 @@ def file_classification(input_folder, output_folder, start_frame, end_frame):
 
     frames_num = int(len(os.listdir(input_folder)) / 5)
     for frame_num in range(frames_num):
+        # 如果4位数字的index没找到，尝试不补全4位的名字组合
         rgbraw_file = os.path.join(input_folder, f'{frame_num:04d}_color.png')
+        if not os.path.exists(rgbraw_file):
+            rgbraw_file = os.path.join(input_folder, f'{frame_num}_color.png')
         depth_output_file = os.path.join(input_folder, f'{frame_num:04d}_depth.tiff')
         normal_output_file = os.path.join(input_folder, f'{frame_num:04d}_normals.tiff')
         occlusion_output_file = os.path.join(input_folder, f'{frame_num:04d}_occlusion.png')
