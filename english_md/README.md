@@ -6,8 +6,8 @@
 
 ## Table of Contents <!-- omit from toc -->
 - [📖 Project Description](#-project-description)
-- [📂 Dataset List](#-dataset-list)
-  - [Dataset Overview](#dataset-overview)
+- [📂 Dataset Overview](#-dataset-overview)
+  - [Dataset List](#dataset-list)
   - [EndoNeRF Dataset](#endonerf-dataset)
   - [SCARED2019 Dataset](#scared2019-dataset)
   - [StereoMIS Dataset](#stereomis-dataset)
@@ -32,9 +32,9 @@ This project targets both **medical robotic perception** and **medical vision fo
 
 By systematically organizing these datasets, we aim to provide a reusable, comparable, and extensible experimental foundation for researchers in medical robotics, computer vision, and medical artificial intelligence.
 
-## 📂 Dataset List
+## 📂 Dataset Overview
 
-### Dataset Overview
+### Dataset List
 <!-- no toc -->
 - [C3VD](#c3vd-dataset)
 - [EndoNeRF](#endonerf-dataset)
